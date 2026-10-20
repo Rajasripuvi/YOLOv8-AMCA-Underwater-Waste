@@ -1,0 +1,29 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Training outputs and model weights
+runs/
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Dataset files
+datasets/
+dataset/
+MarineWaste-18K/
+data/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
